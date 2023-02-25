@@ -13,13 +13,13 @@ const currentYear = date.getFullYear();
       
        <div className='card'>
         <h3 className='todoTitle'>{todoTitle}</h3>
-        {/*
+{/*         
       ১। React-js মুলত বেবেল এর মাধ্যমে কোড গুলোকে javascript এ কনভার্ট করে, এটাকে javascript xml বা jsx বলে ।
 
       ২। এইচটিএমএল এলিমেন্ট এর মধ্যে আমরা ডায়নামিকালি কারলি ব্রাসেস বা সেকেন্ড ব্র্যাকেট ভিতরে javascript value,variable, array , object অ্যাড করা যায় । 
 
-      ৩। এখানে এইচটিএমএল এলিমেন্ট এ কারলি ব্রাচেস এ লাল কোড গুলো javascript variable 
-         */}
+      ৩। এখানে এইচটিএমএল এলিমেন্ট এ কারলি ব্রাচেস এ লাল কোড গুলো javascript variable . */}
+        
         <p className='todoDesc'>{todoDesc}</p>
         <p className='cardFooter'>{dateName +   monthName  + currentYear  }</p>
      </div>
