@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const date = new Date();
 const dateName = date.getDate();
 const monthName = date.getMonth();
