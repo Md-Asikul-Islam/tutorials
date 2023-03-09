@@ -1,6 +1,5 @@
 import React from 'react'
-import Home from './State_management/State_create/Home'
-import './State_management/State_create/Style.css'
+import Home from './Conditional_Rendering/Home'
 
 export default function App() {
   return (
